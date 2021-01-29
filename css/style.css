@@ -1,0 +1,20 @@
+.container {
+  background-color: pink;
+  border: 1px solid black;
+  font-size: 1em;
+}
+
+[class*="col-"] {
+  line-height: 20vh;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.row-5 > div {
+  padding: 0.5% 0.5%;
+}
+
+.row-5 .col-6 div {
+  border: 1px solid white;
+  background-color: #d36e70;
+}
